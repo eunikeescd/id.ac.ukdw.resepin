@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UTSANDRO</string>
+    <string name="masuk">Masuk</string>
+    <string name="saya_menyetujui_syarat_dan_ketentuan_yang_berlaku">Saya menyetujui Syarat dan Ketentuan yang berlaku</string>
+    <string name="title_activity_splashscreen">splashscreen</string>
+</resources>
