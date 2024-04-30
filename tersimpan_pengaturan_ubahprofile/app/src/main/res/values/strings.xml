@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ResepMakanan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="judul">Judul Masakan</string>
+    <string name="textjudul">Sup Ayam Favorite Keluarga</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="textdeskripsi">Ayo bagikan cerita di balik masakanmu</string>
+    <string name="waktu">Lama Memasak</string>
+    <string name="textwaktu">1 jam 30 menit</string>
+    <string name="bahan">Bahan-bahan</string>
+    <string name="textbahan">1. 1/2kg ekor ayam, \n2. 3 buah wortel, \n3. 3 buah kentang, \n4. dst</string>
+    <string name="langkah">Langkah</string>
+    <string name="textlangkah">"Ini adalah baris pertama.\nIni adalah baris kedua setelah menekan tombol Enter."</string>
+    <string name="btn_posting">Posting</string>
+
+    <string name="name">Talenta Kinayom</string>
+    <string name="_1">1</string>
+    <string name="textisibahan">Bahan Kering : \n   1.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                \n   2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                \n   3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                \n \nBahan Basah:
+                                \n   1.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                \n   2.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                \n   3.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
