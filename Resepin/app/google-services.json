@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "729606039276",
+    "project_id": "aplikasi-resepin",
+    "storage_bucket": "aplikasi-resepin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729606039276:android:1efcb41f1e4b96bd60e7c9",
+        "android_client_info": {
+          "package_name": "com.example.resepmakanan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChGvvuwsLu1CfusiWQrXSqxINKS6jzfGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
