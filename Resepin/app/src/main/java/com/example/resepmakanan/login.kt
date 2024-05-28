@@ -31,6 +31,11 @@ class login : AppCompatActivity(), View.OnClickListener {
             val password = editTextPassword.text.toString()
             loginUser(username, password)
         }
+        val textViewDaftar = findViewById<TextView>(R.id.ctadaftar)
+        textViewDaftar.setOnClickListener {
+            val intent = Intent(this, daftar::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun loginUser(username: String, password: String) {
