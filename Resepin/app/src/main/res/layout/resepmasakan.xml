@@ -66,11 +66,12 @@
                 android:layout_marginStart="55dp"
                 />
 
-            <ImageView
+            <CheckBox
                 android:id="@+id/bookmark"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/baseline_bookmark_border_24"
+                android:button="@drawable/selector_bookmark_item"
+                app:useMaterialThemeColors="false"
                 android:layout_marginStart="320dp"
                 android:layout_marginTop="-55dp"
                 />
