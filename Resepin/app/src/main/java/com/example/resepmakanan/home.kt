@@ -35,4 +35,3 @@ class home : Fragment() {
 
     }
 }
-

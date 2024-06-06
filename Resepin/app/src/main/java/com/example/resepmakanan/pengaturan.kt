@@ -6,12 +6,25 @@ import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.TextView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 class pengaturan : AppCompatActivity() {
+
+    val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pengaturan)
+
+        val userId = FirebaseAuth.getInstance().currentUser?.uid ?: ""
+        if (userId.isNotEmpty()) {
+            getUsernameFromFirestore(userId)
+        } else {
+            // Handle user ID kosong atau user tidak terautentikasi
+            // Tambahkan penanganan jika userID kosong
+        }
 
         val linearButton: LinearLayout = findViewById(R.id.ubah)
         linearButton.setOnClickListener {
@@ -24,6 +37,32 @@ class pengaturan : AppCompatActivity() {
             // Menampilkan dialog konfirmasi sebelum logout
             showLogoutDialog()
         }
+    }
+
+    private fun getUsernameFromFirestore(userId: String) {
+        // Akses koleksi 'users' di Firestore dan ambil dokumen berdasarkan userID
+        db.collection("users").document(userId)
+            .get()
+            .addOnSuccessListener { document ->
+                if (document != null && document.exists()) {
+                    // Dokumen ditemukan, ambil data dari Firestore
+                    val nama = document.getString("nama")
+
+                    // Set nilai ke dalam EditText
+                    val namaEditText = findViewById<TextView>(R.id.nama)
+
+                    namaEditText.setText(nama)
+
+                } else {
+                    // Dokumen tidak ditemukan atau kosong
+                    // Tambahkan penanganan jika dokumen tidak ditemukan
+                }
+            }
+            .addOnFailureListener { exception ->
+                // Gagal mengambil data dari Firestore
+                // Tambahkan penanganan jika terjadi kesalahan
+                exception.printStackTrace()
+            }
     }
 
     private fun showLogoutDialog() {

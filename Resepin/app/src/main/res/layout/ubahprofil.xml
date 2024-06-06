@@ -28,6 +28,7 @@
             />
 
         <EditText
+            android:id="@+id/nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -40,6 +41,7 @@
             />
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -52,6 +54,7 @@
             />
 
         <EditText
+            android:id="@+id/nomorTelepon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -64,6 +67,7 @@
             />
 
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -76,17 +80,20 @@
             />
 
         <EditText
+            android:id="@+id/kataSandi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:inputType="textPassword"
             android:text="tatecantik" />
+
         <Button
+            android:id="@+id/simpanButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Simpan"
             android:backgroundTint="@color/H100"
-            android:onClick="simpan"/>
+            android:onClick="simpan"
+            android:text="Simpan" />
     </LinearLayout>
 
 

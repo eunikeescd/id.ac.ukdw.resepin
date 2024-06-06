@@ -27,15 +27,15 @@ android {
             )
         }
     }
-    buildFeatures{
-        viewBinding = true
-    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures{
+        viewBinding = true
     }
 }
 
@@ -54,7 +54,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore:24.1.2")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation("com.google.firebase:firebase-firestore-ktx:24.0.0")
-    implementation("com.google.firebase:firebase-auth:22.3.1")
+    implementation("com.google.firebase:firebase-auth:21.0.3")
 
     //untuk load gambar
     implementation("com.squareup.picasso:picasso:2.71828")
