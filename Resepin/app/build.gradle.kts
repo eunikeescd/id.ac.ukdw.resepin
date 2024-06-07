@@ -55,6 +55,9 @@ dependencies {
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation("com.google.firebase:firebase-firestore-ktx:24.0.0")
     implementation("com.google.firebase:firebase-auth:21.0.3")
+//    implementation ("com.google.firebase:firebase-storage:20.2.1")
+    implementation (platform("com.google.firebase:platform-bom:33.0.3"))
+    implementation ("com.google.firebase:firebase-storage:21.0.0")
 
     //untuk load gambar
     implementation("com.squareup.picasso:picasso:2.71828")

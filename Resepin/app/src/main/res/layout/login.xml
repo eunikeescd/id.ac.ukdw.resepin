@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/loginimg" />
 
     <LinearLayout
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="380dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -27,8 +27,8 @@
             android:id="@+id/loginText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
             android:text="Selamat Datang Kembali!"
-            android:layout_marginBottom="15sp"
             android:textAlignment="center"
             android:textColor="@color/H100"
             android:textSize="24sp"
@@ -48,7 +48,7 @@
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:drawablePadding="8dp"
             android:hint="Masukkan Username"
             android:inputType="textEmailAddress"
@@ -71,7 +71,7 @@
         <EditText
             android:id="@+id/Password"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:drawablePadding="8dp"
             android:hint="Masukkan Password"
             android:autofillHints="password"
@@ -94,7 +94,7 @@
         <Button
             android:id="@+id/loginButton"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:backgroundTint="@color/H100"
             android:text="Masuk"
             android:textSize="18sp"
