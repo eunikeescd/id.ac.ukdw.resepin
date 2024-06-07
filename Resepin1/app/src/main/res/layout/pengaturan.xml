@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".pengaturan">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/background"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bg"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/bg"
+            android:src="@drawable/baseline_account_circle_putih" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Talenta Kinayom"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ubah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/bg"
+        android:padding="28dp"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_edit_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubah Profile"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/ubah"
+        android:background="@color/gray"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
+    <LinearLayout
+        android:id="@+id/keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/ubah"
+        android:padding="28dp"
+        android:clickable="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_logout_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keluar"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/keluar"
+        android:background="@color/gray"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"/>
+
+</RelativeLayout>
