@@ -83,20 +83,13 @@
 
             />
 
-        <TextView
-            android:id="@+id/lupapw"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="center_vertical|end"
-            android:text="Lupa Password?"
-            android:textColor="@color/H60" />
-
         <Button
             android:id="@+id/loginButton"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:backgroundTint="@color/H100"
             android:text="Masuk"
+            android:layout_marginTop="20dp"
             android:textSize="18sp"
             app:cornerRadius="20dp" />
 
