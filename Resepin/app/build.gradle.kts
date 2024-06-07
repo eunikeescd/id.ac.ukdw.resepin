@@ -67,5 +67,4 @@ dependencies {
 
     //membuat gambar lingkaran
     implementation("de.hdodenhof:circleimageview:3.1.0")
-
 }
