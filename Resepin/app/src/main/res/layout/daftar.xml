@@ -173,23 +173,7 @@
             android:layout_marginTop="5dp"
 
             >
-            <TextView
-                android:id="@+id/boxcheck"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="□"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="16sp"
-                />
-            <TextView
-                android:id="@+id/kebijakan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/saya_menyetujui_syarat_dan_ketentuan_yang_berlaku"
-                android:textSize="14sp"
-                android:textColor="@color/H60"
-                />
+
         </LinearLayout>
 
         <Button
